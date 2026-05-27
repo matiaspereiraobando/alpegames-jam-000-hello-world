@@ -1,6 +1,6 @@
 function love.conf(t)
     t.identity = "alpegames-jam-000-hello-world"
-    t.version = "11.5"
+    t.version = "11.4" -- Pinned for love.js web runtime compatibility (jam best practice)
     t.console = false
 
     t.window.title = "Alpe Games - Jam #0"
